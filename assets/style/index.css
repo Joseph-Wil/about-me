@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--app-main-bg);
+    background-color: #eaf2ed;
     font-family: "Nunito Sans", sans-serif;
 }
 
@@ -35,7 +35,7 @@ main {
 }
 
 header {
-    background-color: #aeccbb;
+    background-color: #d2e3d8;
 }
 
 header, footer {
@@ -129,15 +129,15 @@ section .about-me {
     width: 60%;
     font-size: 22px;
     text-align: left;
-    padding: 0 40px;
+    padding: 0 50px;
     letter-spacing: 1px;
 }
-
 
 
 /***    Footer     ***/
 
 footer {
+    margin-top: 80px;
     line-height: 60px;
     padding: 0 15px;
     background-color: #deebe3;
