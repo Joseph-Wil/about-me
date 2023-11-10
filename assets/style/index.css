@@ -15,6 +15,10 @@
 
 body {
     background-color: var(--app-light-bg);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+main {
     min-height: 100dvh;
 }
  
@@ -22,4 +26,87 @@ body {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
 }
- 
+
+/***    Header     ***/
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #aeccbb;
+}
+
+header, footer {
+    height: 60px;
+}
+
+header div {
+    width: 40%;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #171717;
+}
+
+nav {
+    width: 60%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #171717;
+    text-decoration: none;
+}
+
+/***    Hero Banner    ***/
+
+.hero-banner {
+    position: relative;
+    background-image: url(../img/gamer.jpg);
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+section > img:first-child {
+    width: 100%;
+    height: 40rem;
+}
+*/
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/***    Main   ***/
+
+/***    Footer     ***/
+
+footer {
+    line-height: 60px;
+    padding: 0 15px;
+}
