@@ -109,4 +109,24 @@ h2 {
 footer {
     line-height: 60px;
     padding: 0 15px;
+    background-color: #fff;
+}
+
+footer div {
+    width: 60%;
+}
+
+.icons i {
+    display: inline;
+    line-height: 60px;
+    font-size: 25px;
+    padding: 0 15px;
+}
+
+div p {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 60px;
+    width: 40%;
+    text-align: right;
 }
