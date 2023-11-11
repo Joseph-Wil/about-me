@@ -227,3 +227,21 @@ footer div p {
     cursor: pointer;
     transition: 0.3s ease-in-out
 }
+
+/***    Media Queries   ***/
+
+@media screen and (max-width: 768px) {
+    .slideshow {
+        width: 100%; 
+    }
+    .about-me {
+        flex-wrap: wrap;
+    }
+    .info {
+        font-size: 18px;
+        width: 100%;
+    }
+    .contact {
+        margin-top: 20rem;
+    }
+}
